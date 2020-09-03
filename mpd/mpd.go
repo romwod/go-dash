@@ -460,6 +460,13 @@ func (m *MPD) GetCurrentPeriod() *Period {
 	return m.period
 }
 
+
+// SetCurrentPeriod sets the current Period.
+func (m *MPD) SetCurrentPeriod(period *Period) *Period {
+	m.period = period
+	return m.period
+}
+
 func (period *Period) SetDuration(d time.Duration) {
 	period.Duration = Duration(d)
 }
