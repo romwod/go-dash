@@ -5,9 +5,9 @@ import (
 	"path/filepath"
 	"testing"
 
-	. "github.com/zencoder/go-dash/helpers/ptrs"
-	"github.com/zencoder/go-dash/helpers/require"
-	"github.com/zencoder/go-dash/helpers/testfixtures"
+	. "github.com/romwod/go-dash/helpers/ptrs"
+	"github.com/romwod/go-dash/helpers/require"
+	"github.com/romwod/go-dash/helpers/testfixtures"
 )
 
 const (
